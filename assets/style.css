@@ -1,0 +1,683 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: "Lexend", sans-serif;
+}
+
+body {
+    background: #F5F4F9;
+}
+
+header {
+    background-image: url(../img/banner\ promotion.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    align-items: center;
+    padding-bottom: 244px;
+
+
+    & nav {
+        display: flex;
+        justify-content: space-between;
+        padding: 16px 92px;
+        align-items: center;
+
+        & ul {
+            display: flex;
+            justify-content: space-between;
+            gap: 40px;
+            color: hwb(0 94% 6% / 0.70);
+
+
+            & li:first-child {
+                color: #fff;
+            }
+        }
+
+        & .btns {
+
+
+            & button {
+                padding: 8px 16px;
+                border-radius: 8px;
+                background: transparent;
+                color: #fff;
+
+
+
+            }
+
+            & button:first-child {
+                margin-right: 16px;
+                background-color: #3B44F6;
+            }
+
+            & .border {
+                border: #fff solid 1px;
+            }
+
+
+        }
+    }
+
+    & .content {
+
+        margin-top: 197px;
+        margin-left: 95px;
+        color: #fff;
+        width: 438px;
+
+        & .title {
+            display: flex;
+            flex-direction: column;
+            gap: 17px;
+
+            & h1 {
+                font-size: 71px;
+            }
+
+            & p {
+                font-size: 24px;
+            }
+        }
+
+        & button {
+            background-color: #3B44F6;
+            padding: 16px 32px;
+            display: flex;
+            margin-top: 64px;
+            border-radius: 16px;
+            border: 0px;
+            color: #fff;
+
+        }
+    }
+
+}
+
+main {
+    & .Why {
+        padding: 70px 182px;
+        width: 916px;
+        margin: auto;
+
+        & .filho-letras {
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            width: 473px;
+            margin: auto;
+
+
+        }
+
+        & h2 {
+            font-size: 36px;
+            color: #181818;
+            text-align: center;
+
+
+        }
+
+        & p {
+            font-size: 18px;
+            color: #323232;
+            margin-top: 16px;
+
+
+
+
+        }
+
+        & .cards {
+            display: flex;
+            gap: 83px;
+            margin-top: 60px;
+            align-items: center;
+            text-align: center;
+            font-size: 20px;
+
+            & .card img {
+                width: 94px;
+                height: 94px;
+            }
+
+
+            & p {
+                display: flex;
+                color: #181818;
+                margin-top: 16px;
+            }
+        }
+
+    }
+
+    & .games {
+        padding: 40px 92px;
+
+        .title {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 24px;
+            width: 1096px;
+            margin: auto;
+
+            & h2 {
+                color: #181818;
+                font-size: 36px;
+            }
+
+            & p {
+                color: #3B44F6;
+                font-size: 18px;
+            }
+
+        }
+
+        & .cards {
+            display: flex;
+            gap: 16px;
+            justify-content: center;
+
+            & .card {
+                width: 169px;
+                height: 169px;
+                align-items: center;
+                justify-content: center;
+                display: flex;
+                color: #fff;
+                margin-top: 15px;
+                border-radius: 8px;
+
+
+            }
+        }
+
+
+
+    }
+
+    & .best {
+        padding: 92px 24px;
+        width: 1280px;
+        margin: auto;
+
+        & .title {
+            margin-bottom: 28px;
+            display: flex;
+            justify-content: space-between;
+
+
+
+
+            & h2 {
+                color: #181818;
+                font-size: 36px;
+                padding-left: 96px;
+            }
+        }
+
+        & .cards-best {
+
+
+            display: flex;
+            gap: 16px;
+            padding: 0 92px;
+
+
+
+
+
+
+
+        }
+
+        & .game-item {
+            width: 262px;
+            padding: 16px;
+            background-color: #fff;
+            border-radius: 8px;
+
+
+            & img {
+                border-radius: 6px;
+                width: 100%;
+
+            }
+
+            & .content {
+                margin-top: 15px;
+                align-items: center;
+
+                & h3 {
+                    margin-top: 10px;
+                }
+
+                & .foto {
+                    margin-top: -13px;
+
+
+                }
+
+                & .free {
+                    padding: 4px 10px;
+                    background-color: #D8DAFD;
+                    font-size: 14px;
+                    color: #3B44F6;
+                    border-radius: 4px;
+                    margin-top: 20px;
+                    width: 127px;
+                    height: 30px;
+                }
+
+                & .h3 {
+                    font-size: 20px;
+                }
+
+                & .prices {
+                    font-size: 20px;
+                    display: flex;
+                    gap: 28px;
+                    margin-top: 17px;
+                    align-items: center;
+
+
+                    & p:first-child {
+
+                        display: flex;
+                        font-size: 16px;
+                        color: #3B44F6;
+
+                    }
+
+                }
+
+                & .price {
+                    display: flex;
+                    font-size: 16px;
+                    align-items: center;
+
+                    & span {
+                        background-color: rgba(252, 50, 111, 20%);
+                        font-size: 12px;
+                        color: red;
+                        align-items: center;
+                        border-radius: 4px;
+                        padding: 3px 3px;
+                    }
+
+                    & p {
+                        text-decoration: line-through;
+                        font-size: 12px;
+                        background-color: #F5F4F9;
+                        border-radius: 4px;
+                        padding: 1.5px 10px;
+
+                    }
+
+
+                }
+            }
+
+        }
+    }
+
+    & .pop {
+
+        padding: 92px 24px;
+        width: 1280px;
+        margin: auto;
+
+        & .title {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 24px;
+            width: 1200px;
+
+
+            & h2 {
+                color: #181818;
+                font-size: 36px;
+                padding-left: 96px;
+            }
+
+            & p {
+                color: #3B44F6;
+                font-size: 18px;
+            }
+
+        }
+
+        & .cards-best {
+
+
+            display: flex;
+            flex-wrap: wrap;
+            gap: 16px;
+            /*  margin: auto; */
+            justify-content: center;
+
+
+
+
+
+
+
+
+        }
+
+        & .game-item {
+            width: 262px;
+            padding: 16px;
+            background-color: #fff;
+            border-radius: 8px;
+
+
+            & img {
+                border-radius: 6px;
+                width: 100%;
+
+            }
+
+            & .content {
+                margin-top: 15px;
+                align-items: center;
+
+                & h3 {
+                    margin-top: 10px;
+                }
+
+                & .foto {
+                    margin-top: -13px;
+
+
+                }
+
+                & .free {
+                    padding: 4px 10px;
+                    background-color: #D8DAFD;
+                    font-size: 14px;
+                    color: #3B44F6;
+                    border-radius: 4px;
+                    margin-top: 20px;
+                    width: 127px;
+                    height: 30px;
+                }
+
+                & .h3 {
+                    font-size: 20px;
+                }
+
+                & .prices {
+                    font-size: 20px;
+                    display: flex;
+                    gap: 28px;
+                    margin-top: 17px;
+                    align-items: center;
+
+
+                    & p:first-child {
+
+                        display: flex;
+                        font-size: 16px;
+                        color: #3B44F6;
+
+                    }
+
+                }
+
+                & .price {
+                    display: flex;
+                    font-size: 16px;
+                    align-items: center;
+
+                    & span {
+                        background-color: rgba(252, 50, 111, 20%);
+                        font-size: 12px;
+                        color: red;
+                        align-items: center;
+                        border-radius: 4px;
+                        padding: 3px 3px;
+                    }
+
+                    & p {
+                        text-decoration: line-through;
+                        font-size: 12px;
+                        background-color: #F5F4F9;
+                        border-radius: 4px;
+                        padding: 1.5px 10px;
+
+                    }
+
+
+                }
+            }
+
+        }
+    }
+
+    & .comming {
+        background: #0E0E0E;
+        justify-content: center;
+        padding: 50px 124px;
+        display: flex;
+        gap: 16px;
+
+
+
+        & h2 {
+            color: #fff;
+            padding-bottom: 24px;
+
+        }
+
+
+
+        & .esquerda div {
+            width: 633px;
+            height: 400px;
+            border-radius: 8px;
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+
+
+        }
+
+        & .esquerda {
+
+            & .dutty {
+                background-image: url(../img/callof.svg);
+
+                & h2 {
+                    color: #fff;
+                    width: 342px;
+                    padding-top: 210px;
+                    padding-left: 36px;
+                }
+
+                & button {
+                    width: 144px;
+                    height: 40px;
+                    top: 320px;
+                    left: 36px;
+                    padding: 9px 16px 9px 16px;
+                    gap: 10px;
+                    border-radius: 8px;
+                    border: 1px #fff solid;
+                    background-color: transparent;
+                    color: #fff;
+                    margin-left: 36px;
+                }
+            }
+
+            & .nba {
+                background-image: url(../img/basquete.svg);
+
+                & .title {
+                    margin-top: 16px;
+
+                    & h2 {
+                        color: #fff;
+                        width: 342px;
+                        padding-top: 210px;
+                        padding-left: 36px;
+
+
+                    }
+
+                    & button {
+                        width: 144px;
+                        height: 40px;
+                        top: 320px;
+                        left: 36px;
+                        padding: 9px 16px 9px 16px;
+                        gap: 10px;
+                        border-radius: 8px;
+                        border: 1px #fff solid;
+                        background-color: transparent;
+                        color: #fff;
+                        margin-left: 36px;
+                    }
+                }
+            }
+        }
+
+        & .direita div {
+            width: 447px;
+            height: 262px;
+            border-radius: 8px;
+            border: 1px;
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            margin-bottom: 16px;
+        }
+
+        & .direita {
+
+            & .fifa {
+                background-image: url(../img/fifa.svg);
+
+            }
+
+            & .evil {
+                background-image: url(../img/evil.svg);
+
+            }
+
+            & .alien {
+                background-image: url(../img/alien.svg);
+            }
+
+            & h2 {
+                color: #fff;
+                width: 342px;
+                padding-top: 99px;
+                padding-left: 41px
+            }
+
+            & button {
+                width: 144px;
+                height: 40px;
+                top: 320px;
+                left: 41px;
+                padding: 9px 16px 9px 16px;
+                gap: 10px;
+                border-radius: 8px;
+                border: 1px #fff solid;
+                background-color: transparent;
+                color: #fff;
+                margin-left: 36px;
+            }
+        }
+
+    }
+
+    & .classificacao {
+        margin: auto;
+        width: 1280px;
+        background: #F5F4F9;
+
+        & .text {
+            text-align: center;
+            margin-top: 80px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            & h2 {
+                font-size: 36px;
+                color: #181818;
+
+            }
+
+            & p {
+                font-weight: 400;
+                line-height: 27px;
+
+                font-size: 18px;
+                width: 473px;
+                height: 54px;
+
+                margin-top: 16px;
+
+
+
+            }
+
+
+        }
+
+        & .card {
+            background-color: #fff;
+          width: 300px;
+            padding: 32px 24px 32px 24px;
+            gap: 24px;
+            border-radius: 6px;
+            align-items: center;
+            display: flex;
+            flex-direction: column;
+        }
+
+        & .cards {
+            display: flex;
+            gap: 27px;
+            justify-content: center;
+            margin-top: 51px;
+        }
+    
+    }
+
+
+
+
+
+    .Strategy {
+        background-image: url(../img/strategy.svg);
+    }
+
+    .rpg {
+        background-image: url(../img/fps.svg);
+    }
+
+    .fps {
+        background-image: url(../img/rpg.svg);
+    }
+
+    .puzzle {
+        background-image: url(../img/puzzle.svg);
+    }
+
+    .Role-Playing {
+        background-image: url(../img/Role-Playing.svg);
+    }
+
+    .Sports {
+        background-image: url(../img/sport.svg);
+    }
+}
